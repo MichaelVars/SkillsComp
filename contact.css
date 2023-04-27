@@ -1,0 +1,105 @@
+/* #593a26 brown, #39a2ae turquoise, #2d7dd2 bright blue, #4d5061 grey, #f79256 orange, black for text only*/
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: #39a2ae;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    color: #593a26;
+    width: 100vw;
+}
+
+header h1{
+    text-shadow: 3px 3px 3px white;
+}
+
+nav a{
+    font-size: 30px;
+    background-color: #593a26;
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    box-shadow: 3px 3px 3px black;
+}
+
+nav a:link{
+    color: #593a26;
+}
+
+nav a:visited{
+    color: #39a2ae;
+}
+
+header img{
+    height: 100px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.senderName{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contactButtons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+
+}
+
+.inputField{
+    margin-top: 15px;
+}
+.firstName{
+    margin-right: 15px;
+    width: 160px;
+}
+.lastName{
+    width: 160px;
+}
+.contactButton{
+    margin-left: 50px;
+    margin-top: 15px;
+    color: #593a26;
+    border: 2px solid #4D5061;
+    padding: 5px;
+    
+
+
+
+
+     /* From https://css.glass */
+     background: rgba(57, 162, 174, 0.54);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5.3px);
+     -webkit-backdrop-filter: blur(5.3px);
+     border: 1px solid rgba(57, 162, 174, 1);
+}
+
+@font-face {
+    font-family: Ysabeau;
+    src: url(/Fonts/Ysabeau/Ysabeau-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: YsabeauItalic;
+    src: url(/Fonts/Ysabeau/Ysabeau-Italic-VariableFont_wght.ttf);
+}
