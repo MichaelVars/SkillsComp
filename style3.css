@@ -75,3 +75,10 @@ header nav a:visited{
     color: #593a26;
     box-shadow: 3px 3px 10px black;
 }
+
+section{
+    font-size: 30px;
+}
+section img{
+    height: 200px;
+}
