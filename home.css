@@ -123,3 +123,15 @@ footer{
 #ad{
     height: 600px;
 }
+
+@media screen and (max-width: 700px) {
+    header h1{
+        font-size: 15px;
+    }
+    header img{
+        height: 50px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+}

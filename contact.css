@@ -58,6 +58,22 @@ header img{
     flex-direction: row;
     
 }
+
+#image1{
+    position: absolute;
+    height: 110px;
+    left: 30px;
+    top: calc(100% / 2 - 100px)
+}
+
+#image{
+    position: absolute;
+    height: 200px;
+    right: 30px;
+    top: calc((100 / 2) - 500px)
+}
+
+
 .contactButtons{
     display: flex;
     flex-direction: row;
@@ -91,4 +107,16 @@ header img{
 @font-face {
     font-family: YsabeauItalic;
     src: url(/Fonts/Ysabeau/Ysabeau-Italic-VariableFont_wght.ttf);
+}
+
+@media screen and (max-width: 700px) {
+    header h1{
+        font-size: 15px;
+    }
+    header img{
+        height: 50px;
+    }
+    nav a{
+        font-size: 15px;
+    }
 }
