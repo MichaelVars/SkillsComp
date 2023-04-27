@@ -123,3 +123,19 @@ footer{
 #ad{
     height: 600px;
 }
+
+#bigButton{
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: white;
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+    width: 250px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#bigButton:hover{
+    background-color: #39a2ae;
+    color: #593a26;
+    box-shadow: 3px 3px 10px black;
+}
