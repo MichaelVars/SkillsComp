@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="contact.css">
+    <script defer src="contact.js"></script>
 </head>
 <body>
     <header>
@@ -26,7 +27,9 @@
     </p>
 
     <section class="contactWrapper">
+        <form name="form1" action="">
         <div class="inputs">
+            
             <input type="text" placeholder="Subject" id="subject" class="inputField">
             <select name="eventType" id="eventType" class="inputField">
                 <option value="1">Corporate</option>
@@ -39,14 +42,15 @@
                 <input type="text" placeholder="First Name" id="firstName" class="inputField firstName">
                 <input type="text" placeholder="Last Name" id="lastName" class="inputField lastName">
             </div>
-            <input type="text" placeholder="Email Address" id="emailAddress" class="inputField">
+            <input type="text" name="email" placeholder="Email Address" id="emailAddress" class="inputField">
             <br>
             <textarea placeholder="Your Message Here" id="message" cols="30" rows="10"></textarea>
         </div>
         <div class="contactButtons">
-            <button class="contactButton">Submit</button>
-            <button class="contactButton">Clear Fields</button>
+            <input type="submit" id="submit" onclick="validateEmail(document.form1.email)">
+            <input type="reset">
         </div>
+    </form>
     </section>
 
     <footer>
