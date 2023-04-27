@@ -85,5 +85,6 @@ section{
     flex-direction: row;
 }
 .align img{
-    width: 50vw;
+    height: 200px;
+    
 }
