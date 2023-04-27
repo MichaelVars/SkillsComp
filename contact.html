@@ -5,14 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header>
-        <img src="/Assets/Images/Logo3.JPG" alt="Moments Venue Logo" >
+        <img src="/Assets/Images/Logo3.png" alt="Moments Venue Logo" >
         <nav id="navBar">
             <a href="home.html">Home</a>
             <a href="about.html">About Us</a>
         </nav>
     </header>
+
+    <p class="ourMessage">
+        <span>Let's get in touch.</span>
+        We'd love to hear from you.
+
+    </p>
+
+    <section class="contactWrapper">
+        <div class="inputs">
+            <input type="text" placeholder="Subject" id="subject" class="inputField">
+            <select name="eventType" id="eventType" class="inputField">
+                <option value="1">Corporate</option>
+                <option value="2">School</option>
+                <option value="3">Family/Personal</option>
+                <option value="4">Religious</option>
+                <option value="5">Other</option>
+            </select>
+            <div class="senderName">
+                <input type="text" placeholder="First Name" id="firstName" class="inputField firstName">
+                <input type="text" placeholder="Last Name" id="lastName" class="inputField lastName">
+            </div>
+            <input type="text" placeholder="Email Address" id="emailAddress" class="inputField">
+            <input type="text" placeholder="Message" id="message" class="inputField">
+        </div>
+        <div class="contactButtons">
+            <button class="contactButton">Submit</button>
+            <button class="contactButton">Clear Fields</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Moments Venue <code>&#169</code> 2023-2024</p>
+    </footer>
 </body>
 </html>
