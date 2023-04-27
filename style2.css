@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Ysabeau;
 }
 
 header{
@@ -70,6 +71,11 @@ header img{
 .lastName{
     width: 160px;
 }
+#message{
+    height: 75px;
+    margin-top: 15px;
+    
+}
 .contactButton{
     margin-left: 50px;
     margin-top: 15px;
@@ -81,12 +87,9 @@ header img{
 
 
 
-     /* From https://css.glass */
-     background: rgba(57, 162, 174, 0.54);
+     background: rgba(57, 162, 174, 0.5);
      border-radius: 16px;
      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur(5.3px);
-     -webkit-backdrop-filter: blur(5.3px);
      border: 1px solid rgba(57, 162, 174, 1);
 }
 
